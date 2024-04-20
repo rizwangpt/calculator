@@ -1,0 +1,21 @@
+{
+  "name": "m8mr-calculator",
+  "version": "1.0.1",
+  "description": "A Simple Calculator with Typescript, Node js and Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "z4-26-8r-calculator": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rizwan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
