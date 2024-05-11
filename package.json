@@ -1,12 +1,13 @@
 {
-  "name": "m8mr-calculator",
-  "version": "1.0.1",
-  "description": "A Simple Calculator with Typescript, Node js and Inquirer",
+  "name": "@rizwangpt/cli-based-calculator",
+  "version": "2.0.2",
+  "description": "A Simple Cli-Based Calculator with Typescript, Node js and Inquirer",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "z4-26-8r-calculator": "index.js"
+  "publishConfig": {
+    "access": "public"
   },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
